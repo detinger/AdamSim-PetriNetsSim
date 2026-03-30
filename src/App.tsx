@@ -7,6 +7,7 @@ import MatrixPanel from './components/panels/MatrixPanel';
 import { examples } from './examples/library';
 import { getEnabledTransitions, fireTransition, analyzeNet } from './lib/petrinet';
 import { NetPlace, NetTransition, NetArc } from './lib/types';
+import { parsePnml } from './lib/pnmlParser';
 
 export default function App() {
   const [nodes, setNodes] = useNodesState<Node>(examples[0].nodes);
@@ -307,31 +308,48 @@ export default function App() {
               Download Model (.json)
             </button>
             <label className="px-3 py-1.5 bg-nord-1 hover:bg-nord-2 border border-nord-3 rounded text-xs font-bold uppercase tracking-wider text-nord-4 transition-colors cursor-pointer">
-              Import JSON
+              Import Model
               <input
                 type="file"
-                accept=".json"
+                accept=".json,.pnml,.xml"
                 className="hidden"
                 onChange={(e) => {
                   const file = e.target.files?.[0];
-                  if (file) {
-                    const reader = new FileReader();
-                    reader.onload = (event) => {
-                      try {
-                        const { nodes: newNodes, edges: newEdges } = JSON.parse(event.target?.result as string);
-                        setNodes(newNodes);
-                        setEdges(newEdges);
-                        setInitialNodes(newNodes);
-                        setInitialEdges(newEdges);
-                        setSelectedExampleId('custom');
-                        setLog([]);
-                        setHistory([]);
-                      } catch (err) {
-                        alert('Invalid Petri Net JSON file');
+                  if (!file) return;
+
+                  const reader = new FileReader();
+                  reader.onload = (event) => {
+                    try {
+                      const text = event.target?.result as string;
+                      const isPnml =
+                        file.name.toLowerCase().endsWith('.pnml') ||
+                        file.name.toLowerCase().endsWith('.xml');
+
+                      let newNodes: any[];
+                      let newEdges: any[];
+
+                      if (isPnml) {
+                        // Convert PNML → ReactFlow nodes/edges
+                        ({ nodes: newNodes, edges: newEdges } = parsePnml(text));
+                      } else {
+                        // Standard JSON export format
+                        ({ nodes: newNodes, edges: newEdges } = JSON.parse(text));
                       }
-                    };
-                    reader.readAsText(file);
-                  }
+
+                      setNodes(newNodes);
+                      setEdges(newEdges);
+                      setInitialNodes(newNodes);
+                      setInitialEdges(newEdges);
+                      setSelectedExampleId('custom');
+                      setLog([`Imported: ${file.name}`]);
+                      setHistory([]);
+                    } catch (err: any) {
+                      alert(`Failed to import "${file.name}":\n${err?.message ?? err}`);
+                    }
+                  };
+                  reader.readAsText(file);
+                  // Reset input so the same file can be re-imported
+                  e.target.value = '';
                 }}
               />
             </label>
