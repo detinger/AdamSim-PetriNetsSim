@@ -8,6 +8,12 @@
   }
 }
 
+
+.react-flow__attribution {
+  display: none !important;
+}
+
+
 .react-flow__handle {
   opacity: 0 !important;
   transition: opacity 0.2s ease-in-out !important;

@@ -1,6 +1,6 @@
 # Petri Nets Simulator
 
-An interactive Petri Net modeling and simulation environment built with React, TypeScript, and React Flow. Patterned after technical drafting interfaces and utilizing the cohesive Nord color palette, Petri Nets Sim allows students and educators to build, simulate, and analyze discrete event systems with mathematical precision.
+An interactive Petri Net modeling and simulation environment built with React, TypeScript, and React Flow. Patterned after technical drafting interfaces, Petri Nets Sim allows students and educators to build, simulate, and analyze discrete event systems with mathematical precision.
 
 > **Note:** This is an educational tool designed primarily for learning and demonstration purposes. It is not intended for professional-grade or production-critical system modeling.
 
@@ -10,7 +10,7 @@ An interactive Petri Net modeling and simulation environment built with React, T
 
 * **Intuitive Drag-and-Drop Canvas:** Seamlessly construct complex nets with an infinite canvas, powered by React Flow.
 * **Precise Arc Control:** Adjust arc curvature manually to neatly route connections around nodes—solving traditional edge-crossing clutter.
-* **High-Fidelity Aesthetics:** The entire UI is built on the premium **Nord color system**, providing a distraction-free, "blueprint" aesthetic with clear typography and subtle glassmorphism effects.
+* **High-Fidelity Aesthetics:** The entire UI is built on the *Nord color system*, providing a distraction-free, "blueprint" aesthetic with clear typography and effects.
 
 ### 2. Powerful Simulation Engine
 

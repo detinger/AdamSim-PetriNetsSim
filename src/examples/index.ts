@@ -8,6 +8,7 @@ import {
   orderFulfillment,
   serviceQueue,
   machineRepair,
+  kanbanBoard,
   emptyExample,
 } from './library';
 
@@ -21,4 +22,5 @@ export const examples: PetriNetExample[] = [
   orderFulfillment,
   serviceQueue,
   machineRepair,
+  kanbanBoard,
 ];

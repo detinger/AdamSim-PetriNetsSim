@@ -8,6 +8,7 @@ import documentApprovalJson from './models/petri-net-doc-approval.json';
 import orderFulfillmentJson from './models/petri-net-order-fulfillment.json';
 import serviceQueueJson from './models/petri-net-service-queue.json';
 import machineRepairJson from './models/petri-net-machine-repair.json';
+import kanbanBoardJson from './models/petri-net-kanban-board.json';
 
 type ExampleJson = {
   nodes: PetriNetExample['nodes'];
@@ -91,6 +92,13 @@ export const machineRepair = fromJson(
   'Imported from JSON model.'
 );
 
+export const kanbanBoard = fromJson(
+  kanbanBoardJson as ExampleJson,
+  'kanban-board',
+  'Kanban Board',
+  'Imported from JSON model.'
+);
+
 export const emptyExample: PetriNetExample = {
   id: 'empty',
   name: 'Empty Diagram',
@@ -112,4 +120,5 @@ export const examples: PetriNetExample[] = [
   orderFulfillment,
   serviceQueue,
   machineRepair,
+  kanbanBoard,
 ];

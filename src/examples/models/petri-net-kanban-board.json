@@ -1,0 +1,1503 @@
+{
+  "nodes": [
+    {
+      "id": "P3",
+      "type": "place",
+      "position": {
+        "x": 816.4656673400467,
+        "y": 545.673499902883
+      },
+      "data": {
+        "name": "P3",
+        "tokens": 100,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": 35.05974055733532,
+          "y": -12.826286000199616
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "Pm3",
+      "type": "place",
+      "position": {
+        "x": 27.9817225437992,
+        "y": 347.1224545277969
+      },
+      "data": {
+        "name": "Pm3",
+        "tokens": 0,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": -39.9632329121232,
+          "y": -68.0836356477812
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "Pback3",
+      "type": "place",
+      "position": {
+        "x": 161.87754547220305,
+        "y": 566.3577032749345
+      },
+      "data": {
+        "name": "Pback3",
+        "tokens": 0,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": 58.198525942862034,
+          "y": -39.93565938435495
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "Pout3",
+      "type": "place",
+      "position": {
+        "x": -93.50378699351629,
+        "y": 650.6026123305282
+      },
+      "data": {
+        "name": "Pout3",
+        "tokens": 0,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": -25.790439639240503,
+          "y": 4.7702203039079905
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "P4",
+      "type": "place",
+      "position": {
+        "x": 640.3382375865876,
+        "y": -120.56006336358482
+      },
+      "data": {
+        "name": "P4",
+        "tokens": 93,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": 43.72701945248991,
+          "y": -64.00734912604094
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "Pm4",
+      "type": "place",
+      "position": {
+        "x": 247.32859066698805,
+        "y": -300.6093590442578
+      },
+      "data": {
+        "name": "Pm4",
+        "tokens": 3,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "Pback4",
+      "type": "place",
+      "position": {
+        "x": 30.194225899312855,
+        "y": 39.70013174868039
+      },
+      "data": {
+        "name": "Pback4",
+        "tokens": 1,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "Pout4",
+      "type": "place",
+      "position": {
+        "x": 415.1027960239115,
+        "y": 24.09220113755581
+      },
+      "data": {
+        "name": "Pout4",
+        "tokens": 3,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "Pm1",
+      "type": "place",
+      "position": {
+        "x": 254.26990408438638,
+        "y": 1004.4694543335631
+      },
+      "data": {
+        "name": "Pm1",
+        "tokens": 0,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": 29.926468804478645,
+          "y": -3.318014508113265
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "P1",
+      "type": "place",
+      "position": {
+        "x": 761.5500022143741,
+        "y": 1130.1246767802452
+      },
+      "data": {
+        "name": "P1",
+        "tokens": 100,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": 25.919116102159023,
+          "y": -4.774815891869366
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "Pout1",
+      "type": "place",
+      "position": {
+        "x": 531.6908752056593,
+        "y": 1258.5175662048928
+      },
+      "data": {
+        "name": "Pout1",
+        "tokens": 0,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": 36.102939024567604,
+          "y": -5.174632044509053
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "Pback1",
+      "type": "place",
+      "position": {
+        "x": -18.252030613526216,
+        "y": 1254.6582171007506
+      },
+      "data": {
+        "name": "Pback1",
+        "tokens": 0,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": -50.99723960738629,
+          "y": -16.1029402166605
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "Pm2",
+      "type": "place",
+      "position": {
+        "x": 519.9473898838459,
+        "y": 349.3394258187336
+      },
+      "data": {
+        "name": "Pm2",
+        "tokens": 0,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": 49.45312205236405,
+          "y": -64.38418733887374
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "P2",
+      "type": "place",
+      "position": {
+        "x": -307.97939474317195,
+        "y": 562.6639025482084
+      },
+      "data": {
+        "name": "P2",
+        "tokens": 100,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": -26.893380749970675,
+          "y": -1.1672793421894312
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "Pout2",
+      "type": "place",
+      "position": {
+        "x": 654.4365717625976,
+        "y": 622.8553003637367
+      },
+      "data": {
+        "name": "Pout2",
+        "tokens": 0,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": 25.96507198177278,
+          "y": 1.4338234439492226
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "Pback2",
+      "type": "place",
+      "position": {
+        "x": 369.424282273417,
+        "y": 568.5746745658711
+      },
+      "data": {
+        "name": "Pback2",
+        "tokens": 0,
+        "shapeType": "circle",
+        "shapeWidth": 56,
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": 51.61304839421064,
+          "y": -55.110290832817554
+        }
+      },
+      "measured": {
+        "width": 56,
+        "height": 56
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tback3",
+      "type": "transition",
+      "position": {
+        "x": 177.5048301542282,
+        "y": 670.7583563575664
+      },
+      "data": {
+        "name": "tback3",
+        "isEnabled": false,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tredo3",
+      "type": "transition",
+      "position": {
+        "x": 177.5048301542282,
+        "y": 445.6788516374672
+      },
+      "data": {
+        "name": "tredo3",
+        "isEnabled": false,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64,
+        "labelOffset": {
+          "x": 41.525732818990946,
+          "y": -34.93565968237817
+        }
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tredo2",
+      "type": "transition",
+      "position": {
+        "x": 387.2685382463788,
+        "y": 445.6788516374672
+      },
+      "data": {
+        "name": "tredo2",
+        "isEnabled": false,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64,
+        "labelOffset": {
+          "x": 40.96047549974173,
+          "y": -25.85937345866114
+        }
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tok3",
+      "type": "transition",
+      "position": {
+        "x": -80.09347360242785,
+        "y": 466.7400789013657
+      },
+      "data": {
+        "name": "tok3",
+        "isEnabled": false,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64,
+        "labelOffset": {
+          "x": -38.18014478310943,
+          "y": -41.63602693006396
+        }
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tredo4",
+      "type": "transition",
+      "position": {
+        "x": 44.03203527867999,
+        "y": -131.9208362015072
+      },
+      "data": {
+        "name": "tredo4",
+        "isEnabled": true,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64,
+        "labelOffset": {
+          "x": -38.55238740798086,
+          "y": -3.6167277256026864
+        }
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tin4",
+      "type": "transition",
+      "position": {
+        "x": 262.4885917213929,
+        "y": -429.1282664752721
+      },
+      "data": {
+        "name": "tin4",
+        "isEnabled": true,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64,
+        "labelOffset": {
+          "x": -0.9237131802365184,
+          "y": -91.19025191757828
+        }
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tok4",
+      "type": "transition",
+      "position": {
+        "x": 430.3650327481298,
+        "y": -132.86013964012008
+      },
+      "data": {
+        "name": "tok4",
+        "isEnabled": true,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64,
+        "labelOffset": {
+          "x": 30.611211410723627,
+          "y": -17.187498975545168
+        }
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tback4",
+      "type": "transition",
+      "position": {
+        "x": -215.71503056970374,
+        "y": -131.86119047467028
+      },
+      "data": {
+        "name": "tback4",
+        "isEnabled": true,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64,
+        "labelOffset": {
+          "x": -25.850182282738388,
+          "y": 7.941175997257233
+        }
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tsynch1_23",
+      "type": "transition",
+      "position": {
+        "x": 268.41031339108844,
+        "y": 856.2954328503239
+      },
+      "data": {
+        "name": "tsynch1_23",
+        "isEnabled": false,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64,
+        "labelOffset": {
+          "x": -54.540437925606966,
+          "y": -10.266543505713344
+        }
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tout1",
+      "type": "transition",
+      "position": {
+        "x": 549.7446766985456,
+        "y": 1374.608820479553
+      },
+      "data": {
+        "name": "tout1",
+        "isEnabled": false,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tok1",
+      "type": "transition",
+      "position": {
+        "x": 546.6017437410443,
+        "y": 1137.22409577355
+      },
+      "data": {
+        "name": "tok1",
+        "isEnabled": false,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64,
+        "labelOffset": {
+          "x": 37.15992425568402,
+          "y": -35.28032877948135
+        }
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tsynch4_23",
+      "type": "transition",
+      "position": {
+        "x": 261.3810097884236,
+        "y": 154.82126910213455
+      },
+      "data": {
+        "name": "tsynch4_23",
+        "isEnabled": true,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64,
+        "labelOffset": {
+          "x": -58.55698180384934,
+          "y": -15.886947582475841
+        }
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tredo1",
+      "type": "transition",
+      "position": {
+        "x": -2.4285421836243835,
+        "y": 1132.073399048111
+      },
+      "data": {
+        "name": "tredo1",
+        "isEnabled": false,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64,
+        "labelOffset": {
+          "x": -48.92922502476722,
+          "y": -39.09007119946182
+        }
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tback1",
+      "type": "transition",
+      "position": {
+        "x": -2.469243493618978,
+        "y": 1375.1563924162635
+      },
+      "data": {
+        "name": "tback1",
+        "isEnabled": false,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tback2",
+      "type": "transition",
+      "position": {
+        "x": 386.1600526009105,
+        "y": 675.7583563575664
+      },
+      "data": {
+        "name": "tback2",
+        "isEnabled": false,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "tok2",
+      "type": "transition",
+      "position": {
+        "x": 670.6874687852118,
+        "y": 447.89582292840385
+      },
+      "data": {
+        "name": "tok2",
+        "isEnabled": false,
+        "shapeType": "rect",
+        "shapeWidth": 24,
+        "shapeHeight": 64,
+        "labelOffset": {
+          "x": 34.85293909907341,
+          "y": -28.27205713838339
+        }
+      },
+      "measured": {
+        "width": 24,
+        "height": 64
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "P4",
+      "sourceHandle": "source-top",
+      "target": "tin4",
+      "targetHandle": "target-right",
+      "id": "e-P4-tin4-1774900227064",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tin4",
+      "sourceHandle": "source-bottom",
+      "target": "Pm4",
+      "targetHandle": "target-top",
+      "id": "e-tin4-Pm4-1774900237063",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tback4",
+      "sourceHandle": "source-top",
+      "target": "Pm4",
+      "targetHandle": "target-left",
+      "id": "e-tback4-Pm4-1774900259385",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pm4",
+      "sourceHandle": "source-left",
+      "target": "tredo4",
+      "targetHandle": "target-top",
+      "id": "e-Pm4-tredo4-1774900286071",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tredo4",
+      "sourceHandle": "source-bottom",
+      "target": "Pback4",
+      "targetHandle": "target-top",
+      "id": "e-tredo4-Pback4-1774900290993",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pm4",
+      "sourceHandle": "source-right",
+      "target": "tok4",
+      "targetHandle": "target-top",
+      "id": "e-Pm4-tok4-1774900303837",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tok4",
+      "sourceHandle": "source-bottom",
+      "target": "Pout4",
+      "targetHandle": "target-top",
+      "id": "e-tok4-Pout4-1774900310462",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pout4",
+      "sourceHandle": "source-left",
+      "target": "tsynch4_23",
+      "targetHandle": "target-top",
+      "id": "e-Pout4-tsynch4_23-1774900323135",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tsynch4_23",
+      "sourceHandle": "source-right",
+      "target": "P4",
+      "targetHandle": "target-bottom",
+      "id": "e-tsynch4_23-P4-1774900338871",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tsynch4_23",
+      "sourceHandle": "source-bottom",
+      "target": "Pm3",
+      "targetHandle": "target-top",
+      "id": "e-tsynch4_23-Pm3-1774900419922",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tsynch4_23",
+      "sourceHandle": "source-bottom",
+      "target": "Pm2",
+      "targetHandle": "target-top",
+      "id": "e-tsynch4_23-Pm2-1774900450686",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "P2",
+      "sourceHandle": "source-top",
+      "target": "tsynch4_23",
+      "targetHandle": "target-left",
+      "id": "e-P2-tsynch4_23-1774900598675",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "P3",
+      "sourceHandle": "source-top",
+      "target": "tsynch4_23",
+      "targetHandle": "target-right",
+      "id": "e-P3-tsynch4_23-1774900610771",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tsynch1_23",
+      "sourceHandle": "source-left",
+      "target": "P2",
+      "targetHandle": "target-bottom",
+      "id": "e-tsynch1_23-P2-1774900658632",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pout3",
+      "sourceHandle": "source-bottom",
+      "target": "tsynch1_23",
+      "targetHandle": "target-top",
+      "id": "e-Pout3-tsynch1_23-1774900677128",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pout2",
+      "sourceHandle": "source-bottom",
+      "target": "tsynch1_23",
+      "targetHandle": "target-top",
+      "id": "e-Pout2-tsynch1_23-1774900693524",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tsynch1_23",
+      "sourceHandle": "source-right",
+      "target": "P3",
+      "targetHandle": "target-bottom",
+      "id": "e-tsynch1_23-P3-1774900711567",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pm3",
+      "sourceHandle": "source-left",
+      "target": "tok3",
+      "targetHandle": "target-top",
+      "id": "e-Pm3-tok3-1774900738001",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tok3",
+      "sourceHandle": "source-bottom",
+      "target": "Pout3",
+      "targetHandle": "target-top",
+      "id": "e-tok3-Pout3-1774900744344",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pm3",
+      "sourceHandle": "source-right",
+      "target": "tredo3",
+      "targetHandle": "target-top",
+      "id": "e-Pm3-tredo3-1774900757472",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tredo3",
+      "sourceHandle": "source-bottom",
+      "target": "Pback3",
+      "targetHandle": "target-top",
+      "id": "e-tredo3-Pback3-1774900760410",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pback3",
+      "sourceHandle": "source-bottom",
+      "target": "tback3",
+      "targetHandle": "target-top",
+      "id": "e-Pback3-tback3-1774900769339",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tback3",
+      "sourceHandle": "source-left",
+      "target": "Pm3",
+      "targetHandle": "target-bottom",
+      "id": "e-tback3-Pm3-1774900792842",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pm2",
+      "sourceHandle": "source-right",
+      "target": "tok2",
+      "targetHandle": "target-top",
+      "id": "e-Pm2-tok2-1774900829837",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tok2",
+      "sourceHandle": "source-bottom",
+      "target": "Pout2",
+      "targetHandle": "target-top",
+      "id": "e-tok2-Pout2-1774900837906",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pm2",
+      "sourceHandle": "source-left",
+      "target": "tredo2",
+      "targetHandle": "target-top",
+      "id": "e-Pm2-tredo2-1774900857723",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tredo2",
+      "sourceHandle": "source-bottom",
+      "target": "Pback2",
+      "targetHandle": "target-top",
+      "id": "e-tredo2-Pback2-1774900884729",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pback2",
+      "sourceHandle": "source-bottom",
+      "target": "tback2",
+      "targetHandle": "target-top",
+      "id": "e-Pback2-tback2-1774900889235",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tback2",
+      "sourceHandle": "source-right",
+      "target": "Pm2",
+      "targetHandle": "target-bottom",
+      "id": "e-tback2-Pm2-1774900903061",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tsynch1_23",
+      "sourceHandle": "source-bottom",
+      "target": "Pm1",
+      "targetHandle": "target-top",
+      "id": "e-tsynch1_23-Pm1-1774900940552",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pm1",
+      "sourceHandle": "source-right",
+      "target": "tok1",
+      "targetHandle": "target-top",
+      "id": "e-Pm1-tok1-1774900952372",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tok1",
+      "sourceHandle": "source-bottom",
+      "target": "Pout1",
+      "targetHandle": "target-top",
+      "id": "e-tok1-Pout1-1774900958375",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pout1",
+      "sourceHandle": "source-bottom",
+      "target": "tout1",
+      "targetHandle": "target-top",
+      "id": "e-Pout1-tout1-1774900962435",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tout1",
+      "sourceHandle": "source-right",
+      "target": "P1",
+      "targetHandle": "target-bottom",
+      "id": "e-tout1-P1-1774900972706",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "P1",
+      "sourceHandle": "source-top",
+      "target": "tsynch1_23",
+      "targetHandle": "target-right",
+      "id": "e-P1-tsynch1_23-1774900980135",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pm1",
+      "sourceHandle": "source-left",
+      "target": "tredo1",
+      "targetHandle": "target-top",
+      "id": "e-Pm1-tredo1-1774901054596",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tredo1",
+      "sourceHandle": "source-bottom",
+      "target": "Pback1",
+      "targetHandle": "target-top",
+      "id": "e-tredo1-Pback1-1774901059877",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pback1",
+      "sourceHandle": "source-bottom",
+      "target": "tback1",
+      "targetHandle": "target-top",
+      "id": "e-Pback1-tback1-1774901063868",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "tback1",
+      "sourceHandle": "source-right",
+      "target": "Pm1",
+      "targetHandle": "target-bottom",
+      "id": "e-tback1-Pm1-1774901082692",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "Pback4",
+      "sourceHandle": "source-left",
+      "target": "tback4",
+      "targetHandle": "target-bottom",
+      "id": "e-Pback4-tback4-1774901136881",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "timestamp": "2026-03-31T08:16:11.526Z",
+    "name": "kanban-board"
+  }
+}
