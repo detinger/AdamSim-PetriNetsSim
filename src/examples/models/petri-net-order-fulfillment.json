@@ -4,12 +4,12 @@
       "id": "p_r",
       "type": "place",
       "position": {
-        "x": 100,
-        "y": 200
+        "x": 116.59002169197397,
+        "y": 250.8069414316703
       },
       "data": {
         "name": "Received",
-        "tokens": 0,
+        "tokens": 1,
         "shapeType": "circle",
         "shapeWidth": 56,
         "shapeHeight": 56
@@ -17,7 +17,9 @@
       "measured": {
         "width": 56,
         "height": 56
-      }
+      },
+      "selected": false,
+      "dragging": false
     },
     {
       "id": "t1",
@@ -28,7 +30,7 @@
       },
       "data": {
         "name": "Verify",
-        "isEnabled": false,
+        "isEnabled": true,
         "labelOffset": {
           "x": 0.8272058330476284,
           "y": -97.76194270234555
@@ -45,7 +47,7 @@
       "id": "p_v",
       "type": "place",
       "position": {
-        "x": 400,
+        "x": 387.55748373101954,
         "y": 200
       },
       "data": {
@@ -58,14 +60,16 @@
       "measured": {
         "width": 56,
         "height": 56
-      }
+      },
+      "selected": false,
+      "dragging": false
     },
     {
       "id": "t2",
       "type": "transition",
       "position": {
-        "x": 550,
-        "y": 123.63816891621528
+        "x": 546.8893709327548,
+        "y": 196.2195138186014
       },
       "data": {
         "name": "Pack",
@@ -127,12 +131,12 @@
       "id": "p_s",
       "type": "place",
       "position": {
-        "x": 1000,
-        "y": 200
+        "x": 981.3362255965292,
+        "y": 244.58568329718005
       },
       "data": {
         "name": "Shipped",
-        "tokens": 1,
+        "tokens": 0,
         "shapeType": "circle",
         "shapeWidth": 56,
         "shapeHeight": 56
@@ -140,14 +144,16 @@
       "measured": {
         "width": 56,
         "height": 56
-      }
+      },
+      "selected": false,
+      "dragging": false
     },
     {
       "id": "p1774886120124",
       "type": "place",
       "position": {
         "x": 530.8412241893138,
-        "y": 396.0624780689599
+        "y": 444.7956667891334
       },
       "data": {
         "name": "Worker",
@@ -313,7 +319,8 @@
       "markerEnd": {
         "type": "arrowclosed",
         "color": "#2e3440"
-      }
+      },
+      "selected": false
     },
     {
       "type": "weighted",
@@ -372,7 +379,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "timestamp": "2026-03-30T15:57:55.896Z",
+    "timestamp": "2026-03-31T08:34:47.450Z",
     "name": "order-fulfillment"
   }
 }

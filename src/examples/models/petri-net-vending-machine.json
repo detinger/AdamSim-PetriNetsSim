@@ -4,8 +4,8 @@
       "id": "i",
       "type": "place",
       "position": {
-        "x": 113,
-        "y": 204
+        "x": 127.51626898047724,
+        "y": 202.96312364425162
       },
       "data": {
         "name": "Idle",
@@ -29,8 +29,8 @@
       "id": "t1",
       "type": "transition",
       "position": {
-        "x": 250,
-        "y": 200
+        "x": 275.9219088937093,
+        "y": 198.96312364425162
       },
       "data": {
         "name": "Coin_In",
@@ -39,14 +39,16 @@
       "measured": {
         "width": 24,
         "height": 64
-      }
+      },
+      "selected": false,
+      "dragging": false
     },
     {
       "id": "c1",
       "type": "place",
       "position": {
-        "x": 366.5,
-        "y": 204
+        "x": 385.1637744034707,
+        "y": 202.96312364425162
       },
       "data": {
         "name": "1_Coin",
@@ -66,8 +68,8 @@
       "id": "t2",
       "type": "transition",
       "position": {
-        "x": 535.5,
-        "y": 199
+        "x": 526.1681127982646,
+        "y": 200.03687635574838
       },
       "data": {
         "name": "Coin_In",
@@ -84,8 +86,8 @@
       "id": "c2",
       "type": "place",
       "position": {
-        "x": 667.5,
-        "y": 203
+        "x": 648.8362255965293,
+        "y": 204.03687635574838
       },
       "data": {
         "name": "2_Coins",
@@ -105,12 +107,16 @@
       "id": "t3",
       "type": "transition",
       "position": {
-        "x": 810.5,
+        "x": 786.6518438177874,
         "y": 200.5
       },
       "data": {
         "name": "Dispense",
-        "isEnabled": false
+        "isEnabled": false,
+        "labelOffset": {
+          "x": 1.5349263790994883,
+          "y": -93.71782529633492
+        }
       },
       "measured": {
         "width": 24,
@@ -123,8 +129,8 @@
       "id": "d",
       "type": "place",
       "position": {
-        "x": 936,
-        "y": 394
+        "x": 532.655097613883,
+        "y": 397.11062906724504
       },
       "data": {
         "name": "Drink_Ready",
@@ -144,8 +150,8 @@
       "id": "t4",
       "type": "transition",
       "position": {
-        "x": 513,
-        "y": 394.5
+        "x": 360.5791757049892,
+        "y": 391.3893709327549
       },
       "data": {
         "name": "Collect",
@@ -267,11 +273,11 @@
       "data": {
         "weight": 1
       },
-      "source": "t3",
-      "sourceHandle": "source-right",
-      "target": "d",
-      "targetHandle": "target-top",
-      "id": "e-t3-d-1774887050927",
+      "source": "t4",
+      "sourceHandle": "source-left",
+      "target": "i",
+      "targetHandle": "target-bottom",
+      "id": "e-t4-i-1774887066032",
       "markerEnd": {
         "type": "arrowclosed",
         "color": "#2e3440"
@@ -285,11 +291,11 @@
       "data": {
         "weight": 1
       },
-      "source": "t4",
-      "sourceHandle": "source-left",
-      "target": "i",
-      "targetHandle": "target-bottom",
-      "id": "e-t4-i-1774887066032",
+      "source": "t3",
+      "sourceHandle": "source-bottom",
+      "target": "d",
+      "targetHandle": "target-right",
+      "id": "e-t3-d-1774946174231",
       "markerEnd": {
         "type": "arrowclosed",
         "color": "#2e3440"
@@ -298,7 +304,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "timestamp": "2026-03-30T16:11:59.541Z",
+    "timestamp": "2026-03-31T08:36:33.350Z",
     "name": "vending-machine"
   }
 }

@@ -9,7 +9,7 @@
       },
       "data": {
         "name": "Draft",
-        "tokens": 0,
+        "tokens": 1,
         "shapeType": "circle",
         "shapeWidth": 56,
         "shapeHeight": 56,
@@ -28,12 +28,12 @@
       "id": "t1",
       "type": "transition",
       "position": {
-        "x": 299.33109441695825,
-        "y": 195.9385266663471
+        "x": 284.81482543648104,
+        "y": 245.708591742269
       },
       "data": {
         "name": "Submit",
-        "isEnabled": false
+        "isEnabled": true
       },
       "measured": {
         "width": 24,
@@ -81,12 +81,12 @@
       "id": "a_d",
       "type": "place",
       "position": {
-        "x": 850,
-        "y": 150
+        "x": 799.1930585683297,
+        "y": 153.11062906724513
       },
       "data": {
         "name": "Approved",
-        "tokens": 1,
+        "tokens": 0,
         "shapeType": "circle",
         "shapeWidth": 56,
         "shapeHeight": 56
@@ -94,7 +94,9 @@
       "measured": {
         "width": 56,
         "height": 56
-      }
+      },
+      "selected": true,
+      "dragging": false
     },
     {
       "id": "t3",
@@ -116,8 +118,8 @@
       "id": "r_d",
       "type": "place",
       "position": {
-        "x": 850,
-        "y": 350
+        "x": 798.1561822125814,
+        "y": 353.1106290672451
       },
       "data": {
         "name": "Rejected",
@@ -134,7 +136,8 @@
         "width": 56,
         "height": 56
       },
-      "selected": false
+      "selected": false,
+      "dragging": false
     },
     {
       "id": "t4",
@@ -292,7 +295,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "timestamp": "2026-03-30T15:59:22.313Z",
+    "timestamp": "2026-03-31T08:37:58.600Z",
     "name": "doc-approval"
   }
 }

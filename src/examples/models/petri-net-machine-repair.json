@@ -4,15 +4,19 @@
       "id": "w",
       "type": "place",
       "position": {
-        "x": 272.31408341738967,
-        "y": 111.48120024977229
+        "x": 266.0928252828994,
+        "y": -23.312725997516225
       },
       "data": {
         "name": "Working",
         "tokens": 3,
         "shapeType": "circle",
         "shapeWidth": 56,
-        "shapeHeight": 56
+        "shapeHeight": 56,
+        "labelOffset": {
+          "x": -33.722424460574985,
+          "y": -2.789521892555058
+        }
       },
       "measured": {
         "width": 56,
@@ -25,8 +29,8 @@
       "id": "t1",
       "type": "transition",
       "position": {
-        "x": 426.36183108378475,
-        "y": 180.40957875017975
+        "x": 427.39870743953315,
+        "y": 160.70892799096066
       },
       "data": {
         "name": "Break",
@@ -77,8 +81,8 @@
         "shapeWidth": 24,
         "shapeHeight": 64,
         "labelOffset": {
-          "x": -43.86948267929256,
-          "y": -14.995403517968953
+          "x": 41.72793868929148,
+          "y": -75.63418666832149
         }
       },
       "measured": {
@@ -92,8 +96,8 @@
       "id": "r",
       "type": "place",
       "position": {
-        "x": 612.1706943337008,
-        "y": 285.8088632499161
+        "x": 848.5785034443298,
+        "y": 333.50517561434134
       },
       "data": {
         "name": "Rep_Idle",
@@ -106,27 +110,11 @@
         "width": 56,
         "height": 56
       },
-      "selected": false,
+      "selected": true,
       "dragging": false
     }
   ],
   "edges": [
-    {
-      "id": "a1",
-      "source": "w",
-      "target": "t1",
-      "sourceHandle": "source-right",
-      "targetHandle": "target-left",
-      "type": "weighted",
-      "markerEnd": {
-        "type": "arrowclosed",
-        "color": "#2e3440"
-      },
-      "data": {
-        "weight": 1,
-        "curvature": 0.75
-      }
-    },
     {
       "id": "a2",
       "source": "t1",
@@ -160,19 +148,57 @@
       }
     },
     {
-      "id": "a4",
-      "source": "r",
-      "target": "t2",
-      "sourceHandle": "source-right",
-      "targetHandle": "target-right",
       "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "t2",
+      "sourceHandle": "source-bottom",
+      "target": "r",
+      "targetHandle": "target-left",
+      "id": "e-t2-r-1774946340183",
       "markerEnd": {
         "type": "arrowclosed",
         "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
       },
       "data": {
-        "weight": 1,
-        "curvature": 0.5
+        "weight": 1
+      },
+      "source": "r",
+      "sourceHandle": "source-top",
+      "target": "t2",
+      "targetHandle": "target-right",
+      "id": "e-r-t2-1774946346517",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
+      }
+    },
+    {
+      "type": "weighted",
+      "style": {
+        "strokeWidth": 3
+      },
+      "data": {
+        "weight": 1
+      },
+      "source": "w",
+      "sourceHandle": "source-bottom",
+      "target": "t1",
+      "targetHandle": "target-left",
+      "id": "e-w-t1-1774946363317",
+      "markerEnd": {
+        "type": "arrowclosed",
+        "color": "#2e3440"
       }
     },
     {
@@ -186,26 +212,8 @@
       "source": "t2",
       "sourceHandle": "source-top",
       "target": "w",
-      "targetHandle": "target-top",
-      "id": "e-t2-w-1774885879965",
-      "markerEnd": {
-        "type": "arrowclosed",
-        "color": "#2e3440"
-      }
-    },
-    {
-      "type": "weighted",
-      "style": {
-        "strokeWidth": 3
-      },
-      "data": {
-        "weight": 1
-      },
-      "source": "t2",
-      "sourceHandle": "source-bottom",
-      "target": "r",
-      "targetHandle": "target-top",
-      "id": "e-t2-r-1774885911737",
+      "targetHandle": "target-right",
+      "id": "e-t2-w-1774946368239",
       "markerEnd": {
         "type": "arrowclosed",
         "color": "#2e3440"
@@ -214,7 +222,7 @@
   ],
   "metadata": {
     "version": "1.0",
-    "timestamp": "2026-03-30T15:52:47.839Z",
+    "timestamp": "2026-03-31T08:40:29.264Z",
     "name": "machine-repair"
   }
 }
