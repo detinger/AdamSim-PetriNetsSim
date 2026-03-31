@@ -6,6 +6,7 @@ import vendingMachineJson from './models/petri-net-vending-machine.json';
 import clientServerJson from './models/petri-net-client-server.json';
 import documentApprovalJson from './models/petri-net-doc-approval.json';
 import orderFulfillmentJson from './models/petri-net-order-fulfillment.json';
+import studentEnrollmentJson from './models/petri-net-student-enrollment.json';
 import serviceQueueJson from './models/petri-net-service-queue.json';
 import machineRepairJson from './models/petri-net-machine-repair.json';
 import kanbanBoardJson from './models/petri-net-kanban-board.json';
@@ -78,6 +79,13 @@ export const orderFulfillment = fromJson(
   'Imported from JSON model.'
 );
 
+export const studentEnrollment = fromJson(
+  studentEnrollmentJson as ExampleJson,
+  'student-enrollment',
+  'Student Enrollment',
+  'Imported from JSON model.'
+);
+
 export const serviceQueue = fromJson(
   serviceQueueJson as ExampleJson,
   'service-queue',
@@ -118,6 +126,7 @@ export const examples: PetriNetExample[] = [
   clientServer,
   documentApproval,
   orderFulfillment,
+  studentEnrollment,
   serviceQueue,
   machineRepair,
   kanbanBoard,
